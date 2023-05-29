@@ -1,0 +1,113 @@
+.CounterComponent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /*width: 60vh;*/
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(40deg, #fff1eb, #ace0f9);
+}
+
+.boxCounter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5vh 0 5vh;
+    width: 70vh;
+    height: 60vh;
+    border: 0.6vh solid #685680;
+    border-radius: 5vh;
+    -webkit-box-shadow: -1px 26px 35px 13px rgba(45, 83, 112, 0.29);
+    -moz-box-shadow: -1px 26px 35px 13px rgba(45, 83, 112, 0.29);
+    box-shadow: -1px 26px 35px 13px rgba(45, 83, 112, 0.29);
+    background: linear-gradient(45deg, #cdd6ea, #d2e1f8);}
+
+.counterDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 40vh;
+    border: 0.6vh solid #685680;
+    font-size: 30vh;
+    border-radius: 5vh;
+background: #ede8ef;
+}
+.error{
+    color: #946666;
+}
+.counterDisplay span{
+    font-size: 4vh;
+    padding-bottom: 3vh;
+    color: #946666;
+}
+.textError{
+position: absolute;
+    padding-bottom: 3vh;
+    font-size: 3vh;
+}
+.counterDisplay div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+    margin: 1vh 5vh;
+}
+
+.counterDisplay div div {
+    display: flex;
+    font-size: 3.5vh;
+    /*padding-right: 1vh;*/
+}
+.counterDisplay div input{
+    all:unset;
+    width: 40vh;
+    height: 5vh;
+    font-size: 2vh;
+    margin-right: 5vh;
+    border: 0.2vh solid #946666;
+    border-radius: 1vh;
+}
+.InputError{
+    border: red;
+}
+
+
+.buttonBox {
+    width: 90vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBox button {
+    all:unset;
+    background: #b0c4e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:5vh 5vh 0;
+    width: 25vh;
+    height: 10vh;
+    border: none;
+    border-radius: 2vh;
+
+}
+.buttonBox button:active{
+    background: #95b3e8;
+}
+.buttonBox button:disabled{
+    background: #b0c4e8;
+    opacity: 0.5;
+}
+
+.buttonBox button div {
+font-size: 6vh;
+}
